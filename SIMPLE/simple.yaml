@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: premier-fichier
+  namespace: default
+data:
+  message: "Félicitations ! Mon premier déploiement GitOps !"
+  auteur: "Fati-ii"
+  date: "2024-12-24"
